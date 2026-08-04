@@ -1,7 +1,7 @@
 # Medallion Data Engineering Pipeline
 ### End-to-End Data Engineering Architecture using Apache Airflow, Databricks & dbt
 
-![Architecture Diagram](design/pipeline_architecture.png)
+![Architecture Diagram](./design/pipeline-architecture.png)
 
 ---
 
@@ -24,14 +24,6 @@ The architecture demonstrates industry best practices including:
 - Incremental warehouse loading
 
 The final Gold layer provides analytics-ready dimensional models for reporting and business intelligence.
-
----
-
-# Architecture
-
-The complete architecture is shown below.
-
-![Architecture](a_clean_technical_architecture_diagram_infograph.png)
 
 ---
 
