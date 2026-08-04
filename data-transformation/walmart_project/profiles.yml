@@ -1,0 +1,11 @@
+walmart_project:
+  outputs:
+    dev:
+      catalog: walmart
+      host: ${BRICKS_HOST}
+      http_path: ${BRICKS_HTTP_PATH}
+      schema: silver
+      threads: 1
+      token: ${BRICKS_TOKEN}
+      type: databricks
+  target: dev

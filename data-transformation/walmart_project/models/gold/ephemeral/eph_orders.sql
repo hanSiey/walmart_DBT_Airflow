@@ -1,0 +1,12 @@
+SELECT DISTINCT
+    order_id,
+    order_item_id,
+    payment_method,
+    order_status,
+    order_timestamp,
+    order_created_timestamp,
+    order_updated_timestamp,
+    order_is_active,
+    order_processed_at,
+    current_timestamp() AS gold_processed_at
+FROM {{ ref('obt_b') }}
