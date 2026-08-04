@@ -1,7 +1,7 @@
 # Medallion Data Engineering Pipeline
 ### End-to-End Data Engineering Architecture using Apache Airflow, Databricks & dbt
 
-![Architecture Diagram](a_clean_technical_architecture_diagram_infograph.png)
+![Architecture Diagram](design/pipeline_architecture.png)
 
 ---
 
@@ -126,6 +126,7 @@ Example Bronze Tables
 ```
 bronze_customers
 bronze_orders
+bronze_order_items
 bronze_products
 bronze_employees
 bronze_stores
