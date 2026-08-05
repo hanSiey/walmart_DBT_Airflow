@@ -68,6 +68,7 @@ Transactional operational database containing:
 - Customers
 - Employees
 - Orders
+- Order Items
 - Products
 - Stores
 
